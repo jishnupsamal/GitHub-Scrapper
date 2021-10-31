@@ -4,8 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
-fvvf
-
 
 import Data from './dom/data'
 import {
