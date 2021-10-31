@@ -1,2 +1,4 @@
-bootstrap/
+bootstrap/*.css
+bootstrap/*.js
+bootstrap/*
 /.gitignore

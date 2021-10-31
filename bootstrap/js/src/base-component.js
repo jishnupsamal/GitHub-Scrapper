@@ -1,9 +1,11 @@
 /**
  * --------------------------------------------------------------------------
- * Bootstrap (v5.1.3): base-component.js
+ * Bootstrap (v5.1.3): base-component.jsgtjfn
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
+fvvf
+
 
 import Data from './dom/data'
 import {
