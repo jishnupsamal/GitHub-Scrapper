@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <div class='container-fluid col-6 m-10 my-4 card card-heading'>
+    <div class='container-fluid col-10 m-10 my-4 card card-heading'>
       <div class="container-fluid my-4">
         <label for="user" class="text-success">User</label>
         <div class="input-group">
@@ -20,9 +20,15 @@
             <input type="text" class="form-control" id="user" name="user">
         </div>
       </div>
-      <input type="submit" class="btn btn-warning m-3" value="Search">
+      <input type="submit" class="btn btn-warning m-3" id='SearchBtn' value="Search">
       <br><br>
-      <p id="container" class="card card-body invisible" text="black"></p>
+      <div id="container" class="card card-body invisible" text="black">
+        <p id='name'>Name : </p>
+        <p id='login'>Username : </p>
+        <p id='location'>Country : </p>
+        <p id='email'>Country : </p>
+      </div>
+      <br>
     </div>
     <script src="./script.js"></script>
   </body>
