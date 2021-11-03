@@ -1,0 +1,13 @@
+#avatar, #name, #bio, #type {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+}

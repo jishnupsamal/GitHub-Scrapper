@@ -5,8 +5,13 @@ const loginEl = document.querySelector('#login')
 const nameEl = document.querySelector('#name')
 const locationEl = document.querySelector('#location')
 const emailEl = document.querySelector('#email')
+const avatar = document.querySelector('#avatar')
+const bio = document.querySelector('#bio')
+const type = document.querySelector('#type')
+const p_repos = document.querySelector('#prepos')
 
 SearchBtn.addEventListener('click', function() {
+
     let username = UserEl.value
     let url = `https://api.github.com/users/${username}`
     contEl.classList.remove("invisible")
@@ -26,27 +31,46 @@ SearchBtn.addEventListener('click', function() {
 
         response.json()
         .then(function(data) {
-            loginEl.innerHTML = 'Username : '+data.login
+            loginEl.innerHTML = `Username : <a href='${data.html_url}' target='_blank'>${data.login}</a>`
+
+            avatar.innerHTML = `<img src=${data.avatar_url} height='100px' width='100px' align='middle'></img>`
 
             if (data.name != null) {
-                nameEl.innerHTML = 'Name : '+data.name
+                nameEl.innerHTML = `<h3>${data.name}</h3>`
             } else {
-                nameEl.remove()
+                nameEl.innerHTML = ''
+            }
+
+            if (data.bio != null) 
+            {
+                bio.innerHTML = `<h6>${data.bio}<h6>`
+            } else {
+                bio.innerHTML = ''
             }
 
             if (data.location != null) 
             {
                 locationEl.innerHTML = 'Location : '+data.location
             } else {
-                locationEl.remove()
+                locationEl.innerHTML = 'Location : Unavailable'
             }
 
             if (data.email != null) 
             {
                 emailEl.innerHTML = 'Email : '+data.email
             } else {
-                emailEl.remove()
+                emailEl.innerHTML = 'Email : Unavailable'
             }
+
+            if (data.type != null) 
+            {
+                type.innerHTML = `${data.type}`
+            } else {
+                type.innerHTML = ''
+            }
+
+            p_repos.innerHTML = 
+            `Public Repos : ${data.public_repos}`
         })
     })
 
