@@ -33,7 +33,7 @@ SearchBtn.addEventListener('click', function() {
         .then(function(data) {
             loginEl.innerHTML = `Username : <a href='${data.html_url}' target='_blank'>${data.login}</a>`
 
-            avatar.innerHTML = `<img src=${data.avatar_url} height='100px' width='100px' align='middle'></img>`
+            avatar.innerHTML = `<img src=${data.avatar_url} height='100px' width='100px'></img>`
 
             if (data.name != null) {
                 nameEl.innerHTML = `<h3>${data.name}</h3>`

@@ -2,12 +2,16 @@
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: gold;
+img {
+    text-align: center;
 }
 
-a:hover {
+#login a {
+    color: gold;
+    text-decoration: none;
+}
+
+#login a:hover {
     text-decoration: none;
     color: rgb(255, 123, 0);
 }
