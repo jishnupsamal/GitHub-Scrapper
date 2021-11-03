@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="device-width, initial-width=1.0">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
     <link 
       rel="stylesheet" 
       href="./bootstrap/dist/css/bootstrap.min.css">
@@ -12,11 +12,17 @@
   </head>
 
   <body>
-    <div class='container-fluid m-3'>
-      <label for="user">User : </label>
-      <input type="text" id="user" name="user">
-      <input type="submit" value="Search">
-      <p id="container" text="black"></p>
+    <div class='container-fluid col-6 m-10 my-4 card card-heading'>
+      <div class="container-fluid my-4">
+        <label for="user" class="text-success">User</label>
+        <div class="input-group">
+          <div class="input-group-text">github.com/</div>
+            <input type="text" class="form-control" id="user" name="user">
+        </div>
+      </div>
+      <input type="submit" class="btn btn-warning m-3" value="Search">
+      <br><br>
+      <p id="container" class="card card-body invisible" text="black"></p>
     </div>
     <script src="./script.js"></script>
   </body>
