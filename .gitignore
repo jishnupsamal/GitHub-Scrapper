@@ -1,4 +1,4 @@
-bootstrap/*.css
-bootstrap/*.js
-bootstrap/*
+/favicon.svg
+/favicon.ico
+/apple-touch-icon.png
 /.gitignore
