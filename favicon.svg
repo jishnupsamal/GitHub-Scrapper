@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1692">Github Scrapper Icon</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="32.5"
+     inkscape:cx="14.076923"
+     inkscape:cy="5.5846154"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g833" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4047"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#7ff0f2;stop-opacity:0.42352942;"
+         offset="0"
+         id="stop4045" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2039">
+      <stop
+         style="stop-color:#ff0303;stop-opacity:1;"
+         offset="0"
+         id="stop2035" />
+      <stop
+         style="stop-color:#ff0303;stop-opacity:0;"
+         offset="1"
+         id="stop2037" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2039"
+       id="radialGradient2041"
+       cx="8.3798906"
+       cy="12.220433"
+       fx="8.3798906"
+       fy="12.220433"
+       r="4.9863326"
+       gradientTransform="matrix(0.98585218,0,0,0.93020716,0.18847114,0.54776902)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4047"
+       id="radialGradient4051"
+       cx="8.4024271"
+       cy="11.915306"
+       fx="8.4024271"
+       fy="11.915306"
+       r="4.9640473"
+       gradientTransform="matrix(0.99033451,0,0,0.9368136,0.12859049,0.75288532)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:currentColor"
+       id="g833"
+       transform="matrix(0.80192308,0,0,0.80085639,2.5230769,0.10505109)">
+      <path
+         d="m 5.825061,-0.08537967 c -4.91426954,0 -8.8946056,3.99014277 -8.8946056,8.91652007 0,3.9455596 2.54608091,7.2781096 6.0816865,8.4595486 0.4447303,0.07802 0.6115042,-0.189476 0.6115042,-0.423535 0,-0.211767 -0.011118,-0.913943 -0.011118,-1.660702 C 1.3777583,15.618841 0.79960889,14.660315 0.62171678,14.158761 0.52165247,13.902411 0.08804044,13.11107 -0.2899803,12.899303 c -0.31131119,-0.167185 -0.7560415,-0.579574 -0.0111183,-0.59072 0.70045019,-0.01115 1.20077175,0.646448 1.3675457,0.913943 0.8005143,1.348624 2.0791139,0.969672 2.5905538,0.735613 0.077828,-0.579574 0.311311,-0.969671 0.567031,-1.192584 -1.9790498,-0.222913 -4.04704545,-0.991963 -4.04704545,-4.4025319 0,-0.9696716 0.34466597,-1.7721584 0.91169705,-2.3963148 -0.088946,-0.222913 -0.40025723,-1.1368563 0.088946,-2.3628778 0,0 0.7449231,-0.2340586 2.4460165,0.9139433 0.7115684,-0.2006217 1.4676099,-0.3009325 2.2236514,-0.3009325 0.7560414,0 1.5120829,0.1003108 2.2236515,0.3009325 1.7010933,-1.1591476 2.4460171,-0.9139433 2.4460171,-0.9139433 0.489203,1.2260215 0.177892,2.1399648 0.08895,2.3628778 0.567031,0.6241564 0.911697,1.4154976 0.911697,2.3963148 0,3.4217149 -2.0791145,4.1796189 -4.0581643,4.4025319 0.3224295,0.278641 0.6003859,0.813632 0.6003859,1.649556 0,1.192584 -0.011118,2.15111 -0.011118,2.452043 0,0.234059 0.1667739,0.5127 0.6115042,0.423535 A 8.9079475,8.9298948 0 0 0 14.719667,8.8311404 c 0,-4.9263773 -3.980336,-8.91652007 -8.894606,-8.91652007 z"
+         id="GitHub"
+         style="stroke-width:1.11307;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         inkscape:label="#GitHub">
+        <desc
+           id="desc4226">GitHub</desc>
+        <title
+           id="title4224">GitHub</title>
+      </path>
+      <g
+         id="MagnifyingGlass"
+         style="stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         inkscape:label="#MagnifyingGlass"
+         transform="translate(0,0.15368164)">
+        <desc
+           id="desc4222">Magnifying Glass</desc>
+        <title
+           id="title4220">Magnifying Glass</title>
+        <g
+           style="fill:#cf8117;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+           id="g844"
+           transform="matrix(0.8772148,0,0,0.82961897,2.7709525,6.5339128)">
+          <path
+             d="m 11.742,10.344 a 6.5,6.5 0 1 0 -1.397,1.398 h -0.001 c 0.03,0.04 0.062,0.078 0.098,0.115 l 3.85,3.85 a 1.0002026,1.0002026 0 0 0 1.415,-1.414 l -3.85,-3.85 a 1.007,1.007 0 0 0 -0.115,-0.1 z M 12,6.5 a 5.5,5.5 0 1 1 -11,0 5.5,5.5 0 0 1 11,0 z"
+             id="path835"
+             style="fill:#cf8117;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers" />
+        </g>
+        <path
+           style="mix-blend-mode:darken;fill:url(#radialGradient4051);fill-opacity:1;stroke:url(#radialGradient2041);stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="path850"
+           sodipodi:type="arc"
+           sodipodi:cx="8.4498196"
+           sodipodi:cy="11.915333"
+           sodipodi:rx="4.8542633"
+           sodipodi:ry="4.5879617"
+           sodipodi:start="0"
+           sodipodi:end="6.2314712"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="M 13.304083,11.915333 A 4.8542633,4.5879617 0 0 1 8.5125763,16.502911 4.8542633,4.5879617 0 0 1 3.5971789,12.033951 4.8542633,4.5879617 0 0 1 8.2615913,7.3308216 4.8542633,4.5879617 0 0 1 13.297593,11.678176" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata1690">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Github Scrapper Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
