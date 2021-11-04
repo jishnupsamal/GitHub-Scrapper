@@ -14,7 +14,7 @@ SearchBtn.addEventListener('click', function() {
 
     let username = UserEl.value
     let url = `https://api.github.com/users/${username}`
-    contEl.classList.remove("invisible")
+    
     fetch(url, {
         cache: 'reload',
         method: "GET",
@@ -37,36 +37,41 @@ SearchBtn.addEventListener('click', function() {
 
             if (data.name != null) {
                 nameEl.innerHTML = `<h3>${data.name}</h3>`
+                nameEl.style.display = 'inline'
             } else {
-                nameEl.innerHTML = ''
+                nameEl.style.display = 'none'
             }
 
             if (data.bio != null) 
             {
                 bio.innerHTML = `<h6>${data.bio}<h6>`
+                bio.style.display = 'inline'
             } else {
-                bio.innerHTML = ''
+                bio.style.display = 'none'
             }
 
             if (data.location != null) 
             {
                 locationEl.innerHTML = 'Location : '+data.location
+                locationEl.style.display = 'inline'
             } else {
-                locationEl.innerHTML = 'Location : Unavailable'
+                locationEl.style.display = 'none'
             }
 
             if (data.email != null) 
             {
                 emailEl.innerHTML = 'Email : '+data.email
+                emailEl.style.display = 'inline'
             } else {
-                emailEl.innerHTML = 'Email : Unavailable'
+                emailEl.style.display = 'none'
             }
 
             if (data.type != null) 
             {
                 type.innerHTML = `${data.type}`
+                type.style.display = 'inline'
             } else {
-                type.innerHTML = ''
+                type.style.display = 'none'
             }
 
             p_repos.innerHTML = 
@@ -78,5 +83,5 @@ SearchBtn.addEventListener('click', function() {
         console.log(`Error : ${error}`)
     })
 
-    contEl.classList.add("visible")
+    contEl.classList.remove("invisible")
 })
