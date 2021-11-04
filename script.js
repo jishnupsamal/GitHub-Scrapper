@@ -9,6 +9,8 @@ const avatar = document.querySelector('#avatar')
 const bio = document.querySelector('#bio')
 const type = document.querySelector('#type')
 const p_repos = document.querySelector('#prepos')
+const twitter = document.querySelector('#twitter')
+const website = document.querySelector('#website')
 
 SearchBtn.addEventListener('click', function() {
 
@@ -76,6 +78,23 @@ SearchBtn.addEventListener('click', function() {
 
             p_repos.innerHTML = 
             `Public Repos : ${data.public_repos}`
+
+            if (data.twitter_username != null) 
+            {
+                twitter.innerHTML = 
+                `<a href='https://twitter.com/${data.twitter_username}' target='_blank'><i class="bi bi-twitter"></i></a>`
+                twitter.style.display = 'inline'
+            } else {
+                twitter.style.display = 'none'
+            }
+
+            if (data.blog != null) 
+            {
+                website.innerHTML = `Website : <a href='${data.blog}'>${data.blog}<a>`
+                website.style.display = 'inline'
+            } else {
+                website.style.display = 'none'
+            }
         })
     })
 
