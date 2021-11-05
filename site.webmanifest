@@ -1,14 +1,14 @@
 {
-  "background_color": "none",
-  "description": "Search for a GitHub User..",
+  "background_color": "#FFFFFF",
+  "description": "Search for a GitHub User.",
   "dir": "ltr",
   "display": "standalone",
   "name": "GitHub Scrapper",
   "orientation": "portrait",
   "scope": "/",
   "short_name": "GitHub Scrapper",
-  "start_url": "/",
-  "theme_color": "none",
+  "start_url": ".",
+  "theme_color": "#FEC008",
   "categories": [],
   "screenshots": [],
   "icons": [
@@ -33,16 +33,6 @@
       "src": "/favicon.ico",
       "type": "image/x-icon"
     },
-    {
-      "src": "/android-chrome-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-     },
-     {
-      "src": "/android-chrome-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-     },
   ],
   "shortcuts": []
 }
