@@ -90,7 +90,7 @@ SearchBtn.addEventListener('click', function() {
 
             if (data.blog != null) 
             {
-                website.innerHTML = `Website : <a href="https://${data.blog}">${data.blog}<a>`
+                website.innerHTML = `Website : <a href="${data.blog}">${data.blog}<a>`
                 website.style.display = 'inline'
             } else {
                 website.style.display = 'none'
