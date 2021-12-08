@@ -37,14 +37,14 @@ SearchBtn.addEventListener('click', function() {
 
             avatar.innerHTML = `<img src=${data.avatar_url} height='100px' width='100px'></img>`
 
-            if (data.name != null) {
+            if (data.name !== null) {
                 nameEl.innerHTML = `<h3>${data.name}</h3>`
                 nameEl.style.display = 'inline'
             } else {
                 nameEl.style.display = 'none'
             }
 
-            if (data.bio != null) 
+            if (data.bio !== null) 
             {
                 bio.innerHTML = `<h6>${data.bio}<h6>`
                 bio.style.display = 'inline'
@@ -52,7 +52,7 @@ SearchBtn.addEventListener('click', function() {
                 bio.style.display = 'none'
             }
 
-            if (data.location != null) 
+            if (data.location !== null) 
             {
                 locationEl.innerHTML = 'Location : '+data.location
                 locationEl.style.display = 'inline'
@@ -60,7 +60,7 @@ SearchBtn.addEventListener('click', function() {
                 locationEl.style.display = 'none'
             }
 
-            if (data.email != null) 
+            if (data.email !== null) 
             {
                 emailEl.innerHTML = 'Email : '+data.email
                 emailEl.style.display = 'inline'
@@ -68,7 +68,7 @@ SearchBtn.addEventListener('click', function() {
                 emailEl.style.display = 'none'
             }
 
-            if (data.type != null) 
+            if (data.type !== null) 
             {
                 type.innerHTML = `${data.type}`
                 type.style.display = 'inline'
@@ -79,7 +79,7 @@ SearchBtn.addEventListener('click', function() {
             p_repos.innerHTML = 
             `Public Repos : ${data.public_repos}`
 
-            if (data.twitter_username != null) 
+            if (data.twitter_username !== null) 
             {
                 twitter.innerHTML = 
                 `<a href='https://twitter.com/${data.twitter_username}' target='_blank'><i class="bi bi-twitter"></i></a>`
@@ -88,7 +88,7 @@ SearchBtn.addEventListener('click', function() {
                 twitter.style.display = 'none'
             }
 
-            if (data.blog != null) 
+            if (data.blog !== null) 
             {
                 website.innerHTML = `Website : <a href="${data.blog}">${data.blog}<a>`
                 website.style.display = 'inline'
