@@ -1,42 +1,45 @@
-#avatar, #name, #bio, #type {
-    text-align: center;
+#avatar,
+#name,
+#bio,
+#type {
+  text-align: center;
 }
 
 img {
-    text-align: center;
+  text-align: center;
 }
 
 #login a {
-    color: gold;
-    text-decoration: none;
+  color: gold;
+  text-decoration: none;
 }
 
 #login a:hover {
-    text-decoration: none;
-    color: rgb(255, 123, 0);
+  text-decoration: none;
+  color: rgb(255, 123, 0);
 }
 
 #twitter a {
-    color: gold;
-    text-decoration: none;
+  color: gold;
+  text-decoration: none;
 }
 
 #twitter a:hover {
-    text-decoration: none;
-    color: rgb(255, 123, 0);
+  text-decoration: none;
+  color: rgb(255, 123, 0);
 }
 
 #twitter {
-    text-align: center;
-    font-size: 50px;
+  text-align: center;
+  font-size: 50px;
 }
 
 #website a {
-    color: gold;
-    text-decoration: none;
+  color: gold;
+  text-decoration: none;
 }
 
 #website a:hover {
-    text-decoration: none;
-    color: rgb(255, 123, 0);
+  text-decoration: none;
+  color: rgb(255, 123, 0);
 }
