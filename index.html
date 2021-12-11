@@ -1,98 +1,145 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./favicon.svg" type='image/svg+xml'>
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="alternate icon" type="image/png" sizes="16x16" href="./favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="manifest" href="./site.webmanifest">
-    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="apple-mobile-web-app-title" content="GitHub Scrapper">
-    <meta name="application-name" content="GitHub Scrapper">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="alternate icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="GitHub Scrapper" />
+    <meta name="application-name" content="GitHub Scrapper" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <!-- Primary Meta Tags -->
-<meta name="title" content="GitHub Scrapper">
-<meta name="description" content="Search for people on GitHub.">
+    <meta name="title" content="GitHub Scrapper" />
+    <meta name="description" content="Search for people on GitHub." />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://githubscrapper.cf/">
-<meta property="og:title" content="GitHub Scrapper">
-<meta property="og:description" content="Search for people on GitHub.">
-<meta property="og:image" content="./apple-touch-icon.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://githubscrapper.cf/" />
+    <meta property="og:title" content="GitHub Scrapper" />
+    <meta property="og:description" content="Search for people on GitHub." />
+    <meta property="og:image" content="./apple-touch-icon.png" />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://githubscrapper.cf/">
-<meta property="twitter:title" content="GitHub Scrapper">
-<meta property="twitter:description" content="Search for people on GitHub.">
-<meta property="twitter:image" content="./apple-touch-icon.png">
-    <link 
-      rel="stylesheet" 
-      href="./bootstrap/dist/css/bootstrap.min.css">
-    <link 
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://githubscrapper.cf/" />
+    <meta property="twitter:title" content="GitHub Scrapper" />
+    <meta
+      property="twitter:description"
+      content="Search for people on GitHub."
+    />
+    <meta property="twitter:image" content="./apple-touch-icon.png" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="./style.css">
-    <script 
-      src="./bootstrap/dist/js/bootstrap.bundle.min.js">
-    </script>
-    <link 
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-      rel="stylesheet" 
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-      crossorigin="anonymous">
-    <link 
-      rel="stylesheet" 
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-    <script 
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-      crossorigin="anonymous">
-    </script>
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <title>GitHub Scrapper</title>
     <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
 
-   ym(86846377, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        trackHash:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/86846377" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+      ym(86846377, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        trackHash: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/86846377"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
 
   <body>
-    <div class='container-fluid col-10 m-10 my-4 card card-heading shadow-lg'>
+    <div class="container-fluid col-10 m-10 my-4 card card-heading shadow-lg">
       <div class="container-fluid my-4">
         <div class="input-group">
           <div class="input-group-text">github.com/</div>
-            <input type="text" class="form-control" placeholder='Username' id="user" name="user">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            id="user"
+            name="user"
+          />
         </div>
       </div>
-      <input type="submit" class="btn btn-warning m-3" id='SearchBtn' value="Search">
-      <br><br>
+      <input
+        type="submit"
+        class="btn btn-warning m-3"
+        id="SearchBtn"
+        value="Search"
+      />
+      <br /><br />
       <div id="container" class="card card-body invisible shadow" text="black">
-        <p id='avatar'></p>
-        <p id='name'></p>
-        <p id='bio'></p>
-        <p id='type'></p>
-        <p id='login'></p>
-        <p id='location'></p>
-        <p id='email'></p>
+        <p id="avatar"></p>
+        <p id="name"></p>
+        <p id="bio"></p>
+        <p id="type"></p>
+        <p id="login"></p>
+        <p id="location"></p>
+        <p id="email"></p>
         <p id="prepos"></p>
-        <p id='website'></p>
-        <p id='twitter'></p>
+        <p id="website"></p>
+        <p id="twitter"></p>
       </div>
-      <br>
+      <br />
     </div>
     <script src="./script.js"></script>
   </body>
