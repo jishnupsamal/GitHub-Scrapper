@@ -1,12 +1,45 @@
 # This CITATION.cff file was generated with cffinit.
+
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
+
 title: Github Scrapper
+
 message: >-
+
   If you use this software, please cite it using the
+
   metadata from this file.
+
 type: software
+
 authors:
+
   - given-names: Jishnu Prasad Samal
+
     email: jishnuprs20@gmail.com
+
+identifiers:
+
+  - type: url
+
+    value: 'https://githubscrapper.cf'
+
+repository-code: 'https://github.com/jishnu-prasad-s/GitHub-Scrapper'
+
+url: 'https://githubscrapper.cf'
+
+abstract: Search for details of any user on GitHub
+
+keywords:
+
+  - Github
+
+  - Github API
+
+  - Web App
+
+license: MIT
+
+version: '1.0'
