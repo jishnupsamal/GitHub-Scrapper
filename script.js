@@ -56,7 +56,7 @@ SearchBtn.addEventListener("click", function () {
         }
 
         if (data.email !== null) {
-          emailEl.innerHTML = "Email : " + data.email;
+          emailEl.innerHTML = `Email :  + <a href="mailto:${data.email}" href="_blank">${data.email}</a>`;
           emailEl.style.display = "inline";
         } else {
           emailEl.style.display = "none";
